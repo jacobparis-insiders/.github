@@ -2,6 +2,8 @@
 
 If you've been invited to this organization, it's probably because you signed up for my [mailing list on jacobparis.com](https://www.jacobparis.com). Welcome! You're an insider now!
 
+> If you signed up and have not gotten an invite, it's very possible I just haven't gotten around to sending them yet. It's still a manual process. Either way – reply to any of my emails and I'll get you sorted. If you've subscribed with a different email than your GitHub, we can sort that out via email as well.
+
 I made this org as a way to share the source of all the example projects I've built for each of my articles and tutorials.
 
 Formerly, my jacobparis.com website was in an Nx Monorepo with several other applications, but I can't leak the code for those so it was time to split it out somewhere I can share it properly. 
