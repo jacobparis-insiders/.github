@@ -14,13 +14,21 @@ Why not just make it public?
 - I'm willing to put more effort into answering questions and helping people 1:1 if think they'll stick around.
 
 This is all very early stages, so expect a lot of changes 
-<!--
 
-**Here are some ideas to get you started:**
+## Examples
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+### Remix Image Uploads
+
+This is an example replicating Slack's message input in Remix. 
+- You can drag and drop images, or upload them, onto the message input.
+- They show immediately in a pending "upload" state while they're uploaded in the background to the cloud. 
+- Once the upload completes, they're replaced with the uploaded image and can be submitted with your form.
+
+The draft message and any images in it is fully persisted to the server, so you can start a message on one device and finish it on another.
+
+- Main blog post: https://www.jacobparis.com/content/remix-image-uploads
+- Demo video: https://www.youtube.com/embed/Y-k1XXRtplk
+- Example in code: https://github.com/jacobparis-insiders/jacobparis.com/tree/main/app/examples/remix-image-uploads
+
+[![Optimistic Image Uploads In Remix](https://img.youtube.com/vi/Y-k1XXRtplk/0.jpg)](https://www.youtube.com/watch?v=Y-k1XXRtplk "Optimistic Image Uploads In Remix")
+
