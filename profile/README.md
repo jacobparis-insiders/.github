@@ -48,3 +48,14 @@ Each page loads with animated route transitions
 - Example in code: https://github.com/jacobparis-insiders/jacobparis.com/tree/main/app/examples/remix-multi-step-forms
 
 [![Multi-step form demo with animated route transitions](https://img.youtube.com/vi/ck1cYiRP9Fw/0.jpg)](https://www.youtube.com/watch?v=ck1cYiRP9Fw "Multi-step form demo with animated route transitions")
+
+### Autosave form inputs on change or blur
+
+This is an example demonstrating forms that persist automatically
+- They useFetcher instead of submit so changes aren't lost on navigation
+
+TODO: update to use the [useDebounceFetcher](https://www.jacobparis.com/content/use-debounce-fetcher) hook 
+TODO: Add landing page + Get started button to create a custom ID so users changes don't conflict
+
+- Main blog post: https://www.jacobparis.com/content/remix-form-autosave
+- Example in code: https://github.com/jacobparis-insiders/jacobparis.com/tree/main/app/examples/remix-form-autosave
