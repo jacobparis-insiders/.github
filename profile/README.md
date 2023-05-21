@@ -15,9 +15,7 @@ Why not just make it public?
 
 This is all very early stages, so expect a lot of changes 
 
-## Examples
-
-### Remix Image Uploads
+## Remix Image Upload Example
 
 This is an example replicating Slack's message input in Remix. 
 - You can drag and drop images, or upload them, onto the message input.
@@ -32,7 +30,7 @@ The draft message and any images in it is fully persisted to the server, so you 
 
 [![Optimistic Image Uploads In Remix](https://img.youtube.com/vi/Y-k1XXRtplk/0.jpg)](https://www.youtube.com/watch?v=Y-k1XXRtplk "Optimistic Image Uploads In Remix")
 
-### Multi-step form demo with animated route transitions
+## Multi-step form demo with animated route transitions example
 
 This is an example demonstrating forms that cross many pages, inspired by Linear's onboarding
 - Data is submitted at every step to a form session object
@@ -49,7 +47,24 @@ Each page loads with animated route transitions
 
 [![Multi-step form demo with animated route transitions](https://img.youtube.com/vi/ck1cYiRP9Fw/0.jpg)](https://www.youtube.com/watch?v=ck1cYiRP9Fw "Multi-step form demo with animated route transitions")
 
-### Autosave form inputs on change or blur
+## Show active user presence (like Google Docs or Figma) example
+
+This example covers how to show a presence indicator with a list of the users who are currently viewing a page
+
+- Create a form with an emoji picker
+- Use a cookie session storage to save the user's name and emoji.
+- Create a full stack component to control the presence widget.
+- Use event streams to update the presence widget in real time.
+
+Websockets are also a viable solution here, but that requires setting up a separate websocket server. Server-sent events are easy and widely supported. 
+
+- Main blog post: https://www.jacobparis.com/content/remix-presence
+- Demo video: https://www.youtube.com/embed/WY1x91Ld-uw
+- Example in code: https://github.com/jacobparis-insiders/jacobparis.com/tree/main/app/examples/remix-presence
+
+[![Show active user presence (like Google Docs or Figma)](https://img.youtube.com/vi/WY1x91Ld-uw/0.jpg)](https://www.youtube.com/watch?v=WY1x91Ld-uw "Show active user presence (like Google Docs or Figma)")
+
+## Autosave form inputs on change or blur example
 
 This is an example demonstrating forms that persist automatically
 - They useFetcher instead of submit so changes aren't lost on navigation
