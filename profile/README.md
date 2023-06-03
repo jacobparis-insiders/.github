@@ -15,6 +15,10 @@ Why not just make it public?
 
 This is all very early stages, so expect a lot of changes 
 
+## Email archive
+
+Subscribers can read the [archive of previous emails](https://github.com/jacobparis-insiders/email-archive) in this org. Archive makes it sound like there are a lot of them. There have been two.
+
 ## Remix Image Upload Example (like Slack)
 
 This is an example replicating Slack's message input in Remix. 
