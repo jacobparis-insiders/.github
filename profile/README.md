@@ -15,7 +15,7 @@ Why not just make it public?
 
 This is all very early stages, so expect a lot of changes 
 
-## Remix Image Upload Example
+## Remix Image Upload Example (like Slack)
 
 This is an example replicating Slack's message input in Remix. 
 - You can drag and drop images, or upload them, onto the message input.
@@ -75,7 +75,7 @@ This is an example demonstrating how to show a toast message after a form is sub
 
 [![Show toast notifications on form submit with Remix](https://img.youtube.com/vi/3IUYtO6QbbU/0.jpg)](https://www.youtube.com/watch?v=3IUYtO6QbbU "Show toast notifications on form submit with Remix")
 
-# Building a markdown input with a preview tab (like GitHub and Stack Overflow)
+## Building a markdown input with a preview tab (like GitHub and Stack Overflow)
 
 This is an example replicating GitHub's markdown preview input in Remix
 
@@ -92,7 +92,7 @@ This is an example replicating GitHub's markdown preview input in Remix
 ## Autosave form inputs on change or blur example
 
 This is an example demonstrating forms that persist automatically
-- They useFetcher instead of submit so changes aren't lost on navigation
+- useFetcher instead of submit so changes aren't lost on navigation
 
 TODO: update to use the [useDebounceFetcher](https://www.jacobparis.com/content/use-debounce-fetcher) hook 
 TODO: Add landing page + Get started button to create a custom ID so users changes don't conflict
@@ -100,3 +100,18 @@ TODO: Add landing page + Get started button to create a custom ID so users chang
 - Main blog post: https://www.jacobparis.com/content/remix-form-autosave
 - Live example: https://www.jacobparis.com/content/remix-form-autosave/example
 - Example in code: https://github.com/jacobparis-insiders/jacobparis.com/tree/main/app/examples/remix-form-autosave
+
+## Stream BullMQ Job Progress
+
+This is an example of streaming progress updates for a pending BullMQ job
+- BullMQ guide: https://www.jacobparis.com/content/bullmq-integration-guide
+- Waiting for the job to complete: https://www.jacobparis.com/content/remix-defer-bullmq-queue
+- Streaming the job's progress: https://www.jacobparis.com/content/remix-stream-bullmq-queue
+- Example in code: https://github.com/jacobparis-insiders/remix-defer-streaming-bullmq
+
+## Stream Progress Updates
+
+This is a simpler example of streaming progress for a long-running task (no Redis or BullMQ)
+
+- Main blog post: https://www.jacobparis.com/content/remix-defer-streaming-progress
+- Example in code: https://github.com/jacobparis-insiders/remix-defer-streaming-progress
