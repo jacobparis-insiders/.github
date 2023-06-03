@@ -15,6 +15,10 @@ Why not just make it public?
 
 This is all very early stages, so expect a lot of changes 
 
+## Get in touch
+
+I spend most of my life on [Twitter](https://twitter.com/jacobmparis) and the rest of it in [the Remix Discord](https://remix.run/docs/en/main/pages/community#discord).
+
 ## Email archive
 
 Subscribers can read the [archive of previous emails](https://github.com/jacobparis-insiders/email-archive) in this org. Archive makes it sound like there are a lot of them. There have been two.
