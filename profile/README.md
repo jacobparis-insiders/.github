@@ -1,27 +1,12 @@
 ## Hi there 👋
 
-If you've been invited to this organization, it's probably because you signed up for my [mailing list on jacobparis.com](https://www.jacobparis.com). Welcome! You're an insider now!
+This org is for all of my websites, code examples, and open source projects.
 
-> If you signed up and have not gotten an invite, it's very possible I just haven't gotten around to sending them yet. It's still a manual process. Either way – reply to any of my emails and I'll get you sorted. If you've subscribed with a different email than your GitHub, we can sort that out via email as well.
-
-I made this org as a way to share the source of all the example projects I've built for each of my articles and tutorials.
-
-Formerly, my jacobparis.com website was in an Nx Monorepo with several other applications, but I can't leak the code for those so it was time to split it out somewhere I can share it properly. 
-
-Why not just make it public?
-- I rewrite the thing **a lot**. This website is more of a sandbox for me to try new things. I've rewritten my routing system twice already and it'll take at least one more before I'm happy with it.
-- I want a clear separation between things I'm trying out and things I'm recommending. Doing things "the way jacob does it" by looking at my sandbox code is a recipe for disaster, and I have a reputation to uphold. 
-- I'm willing to put more effort into answering questions and helping people 1:1 if think they'll stick around.
-
-This is all very early stages, so expect a lot of changes 
+Previously, it was locked to newsletter subscribers only, but now everything is publicly available.
 
 ## Get in touch
 
 I spend most of my life on [Twitter](https://twitter.com/jacobmparis) and the rest of it in [the Remix Discord](https://remix.run/docs/en/main/pages/community#discord).
-
-## Email archive
-
-Subscribers can read the [archive of previous emails](https://github.com/jacobparis-insiders/email-archive) in this org. Archive makes it sound like there are a lot of them. There have been two.
 
 ## Remix Image Upload Example (like Slack)
 
